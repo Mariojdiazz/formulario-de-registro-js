@@ -1,0 +1,117 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  
+  body {
+    background:  url('7.png') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+
+  .wrapper {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 20px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+  }
+  
+ 
+  h1 {
+    color: #00FF00;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    color: #FFF;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+ 
+  .input-box {
+    margin-bottom: 20px;
+  }
+  
+  .input-box input {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid #00FF00;
+    border-radius: 10px;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .input-box input::placeholder {
+    color: #aaa;
+  }
+  
+
+  .input-box input:focus {
+    border-color: #0004ff;
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  
+  .btn {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(135deg, #0004ff, #00FF00);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: linear-gradient(135deg, #0004ff, #00FF00);
+    transform: scale(1.05);
+  }
+  
+  
+  .login-link {
+    color: #fff;
+    margin-top: 20px;
+  }
+  
+  .login-link a {
+    color: #0004ff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+  
+
+.input-box input.error {
+    border-color: #FF0000;
+    background-color: rgba(255, 0, 0, 0.2);
+  }
+  
+
+  .input-box input.error::placeholder {
+    color: #FF0000; 
+  }
+  
